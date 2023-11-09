@@ -1,0 +1,53 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.1.1",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-truffle5": "^2.0.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@typechain/ethers-v6": "^0.4.0",
+    "@typechain/hardhat": "^8.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^10.0.2",
+    "chai": "^4.2.0",
+    "hardhat": "^2.17.4",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.5",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.2.0",
+    "typescript": "^5.2.2",
+    "web3": "^4.1.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^0.5.0",
+    "@openzeppelin/hardhat-upgrades": "^2.3.3",
+    "axios": "^1.5.1",
+    "bignumber.js": "^9.0.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-tracer": "^2.6.0",
+    "merkletreejs": "^0.3.10"
+  },
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "size": "yarn run hardhat size-contracts"
+  },
+  "name": "empty---",
+  "description": "![Structure Overview](./General.png)",
+  "version": "0.0.0",
+  "main": "dist/src/types/index.js",
+  "types": "dist/src/types/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "author": "vuonghuuhung",
+  "license": "ISC",
+  "type": "commonjs"
+}
